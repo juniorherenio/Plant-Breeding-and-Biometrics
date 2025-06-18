@@ -1,16 +1,16 @@
-# Genotype by Environment (G×E) Interaction Analysis
+# Genotype by Environment (G×E) Interaction Dataset
 
-This repository contains R code for simulating and analyzing genotype by environment interaction (G×E) data for agricultural trials.
+This repository contains tools for simulating for genotype by environment interaction (G×E) data for plant breeding trials, using R with FieldSimR.
 
 ## Contents
 
-1. [Data Simulation](#data-simulation)
-2. [Exploratory Analysis](#exploratory-analysis)
-3. [Statistical Methods](#statistical-methods)
-4. [Visualization](#visualization)
-5. [Quality Control](#quality-control)
-6. [Requirements](#requirements)
-7. [Usage](#usage)
+1. [Simulation Code](https://github.com/juniorherenio/Plant-Breeding-and-Biometrics/blob/main/FieldSimR-Simulation/Code.R)
+2. [Exploratory Analysis Report](https://github.com/juniorherenio/Plant-Breeding-and-Biometrics/blob/main/FieldSimR-Simulation/EDA-analysis.pdf)
+3. [Key Features](#key-features) 
+4. [Requirements](#requirements)
+5. [Usage](#usage)
+6. [Methodology](#methodology)
+7. [Output Examples](#output-examples)
 
 ## Data Simulation
 
