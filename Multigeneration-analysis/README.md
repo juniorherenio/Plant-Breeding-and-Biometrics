@@ -6,12 +6,12 @@
 ![DOI](https://img.shields.io/badge/DOI-10.1002%2Fagj2.70042-blue)
 
 ## 📌 Study Overview
-This comprehensive analysis evaluates selection efficiency in common bean breeding by connecting sequential trials under different experimental designs. The study addresses key challenges in plant breeding programs, particularly genetic and statistical imbalance across generations.
+This comprehensive analysis evaluates selection efficiency in common bean breeding by connecting sequential trials under different experimental designs. The study addresses key challenges in breeding programs, particularly genetic and statistical unbalanced data across generations.
 
 ## 🎯 Research Objectives
 - Assess the impact of grain yield data (kg ha⁻¹) on selection accuracy
 - Compare statistical models for analyzing multi-generation breeding data
-- Improve genetic gain estimation in unbalanced breeding trials
+- Improve genetic gain estimation in unbalanced data breeding trials
 - Develop a robust framework for multi-generation breeding analysis
 
 ## 🔬 Experimental Design
@@ -19,7 +19,7 @@ This comprehensive analysis evaluates selection efficiency in common bean breedi
 1. **Initial Evaluation (F4:6 Generation)**:
    - 400 progenies
    - 20 trials using randomized complete block design (RCBD)
-   - Conducted during 2019 dry season (Southeast Brazil)
+   - Conducted during 2019 dry season
 
 2. **Advanced Evaluation**:
    - 95 selected progenies
@@ -46,7 +46,7 @@ Five mixed models were compared using ASReml-R, differing in their (co)variance 
 ## 🔑 Key Findings
 - **Optimal Model**: First-order factor analytic structure (FA1) for progenies with heterogeneous residual variances
 - **Genetic Gain**: 68% higher than traditional models
-- **Heritability**: Significant improvement in estimation accuracy (see figure below)
+- **Heritability**: Significant improvement in estimation accuracy
 - **Classification**: Notable changes in progeny rankings across seasons
 
 ## 💻 Code Implementation
@@ -55,8 +55,8 @@ The analysis was implemented in R using ASReml-R for mixed model analysis. Key f
 ## 📚 Complete Publication
 The full article detailing this research is available at:
 
-**"Improving selection efficiency in common bean breeding using multi-generation progeny testing"**  
-Crop Science Journal (2023)  
+**"Application of linear mixed models to overcome challenges of unbalanced data in common bean breeding"**  
+Agronomy Journal (2025)  
 🔗 [Full Article Available Here](https://acsess.onlinelibrary.wiley.com/doi/10.1002/agj2.70042)  
 DOI: 10.1002/agj2.70042
 
