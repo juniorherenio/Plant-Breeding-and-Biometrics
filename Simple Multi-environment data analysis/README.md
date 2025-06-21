@@ -33,13 +33,6 @@ This repository contains a comprehensive RMarkdown script for analyzing multi-en
 - Required R packages (automatically installed by script):
   - `tidyverse`, `agricolae`, `metan`, `ggcorrplot`, `corrplot`, `kableExtra`
 
-## Usage
-
-1. Clone this repository
-2. Open `Simple_Multi-environment_data_analysis.Rmd` in RStudio
-3. Ensure your data is in `field_data.xlsx` format (see example structure below)
-4. Knit the document to generate PDF report
-
 ## Data Structure
 
 The script expects an Excel file (`field_data.xlsx`) with columns:
