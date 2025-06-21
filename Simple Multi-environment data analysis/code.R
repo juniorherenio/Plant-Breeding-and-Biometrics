@@ -55,7 +55,7 @@ run_environment_anovas <- function(data) {
     env_data <- data[data$Environment == env, ]
     model <- aov(Yield ~ Genotype + Rep, data = env_data)
     
-    # Extract and simplify results
+    # Extract results
     anova_table <- broom::tidy(model) |>
       dplyr::filter(term != "Residuals") |>
       dplyr::mutate(
@@ -71,7 +71,7 @@ run_environment_anovas <- function(data) {
     # Store results
     results[[as.character(env)]] <- anova_table
     
-    # Print simple output
+    # Print output
     cat("\n=== Environment:", env, "===\n")
     print(anova_table)
     cat("\n")
